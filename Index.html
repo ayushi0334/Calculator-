@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CodeAlpha | Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Calculator</h1>
+
+    <input id="display" class="display" type="text" placeholder="0" readonly />
+
+    <div class="keys" id="keys">
+      <button data-k="C" class="util">C</button>
+      <button data-k="(">(</button>
+      <button data-k=")">)</button>
+      <button data-k="/" class="op">÷</button>
+
+      <button data-k="7">7</button>
+      <button data-k="8">8</button>
+      <button data-k="9">9</button>
+      <button data-k="*" class="op">×</button>
+
+      <button data-k="4">4</button>
+      <button data-k="5">5</button>
+      <button data-k="6">6</button>
+      <button data-k="-" class="op">−</button>
+
+      <button data-k="1">1</button>
+      <button data-k="2">2</button>
+      <button data-k="3">3</button>
+      <button data-k="+" class="op">+</button>
+
+      <button data-k="0" class="zero">0</button>
+      <button data-k=".">.</button>
+      <button data-k="BACK" title="Backspace">⌫</button>
+      <button data-k="=" class="eq">=</button>
+    </div>
+
+    <p class="hint">Keyboard: 0-9 . + − × ÷ ( )  | Enter =,  Esc = Clear,  Backspace = ⌫</p>
+  </main>
+</body>
+</html>
